@@ -1,0 +1,30 @@
+body {
+  background-color: #b6fffa;
+}
+
+.intro {
+  background-color: #b6fffa;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.HTMLProjects {
+  background-color: #98e4ff;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.JSGames {
+  background-color: #98e4ff;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  text-align: center;
+}
