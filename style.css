@@ -3,12 +3,13 @@ body {
 }
 
 .intro {
-  background-color: #b6fffa;
+  background-color: #176b87;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 10px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .HTMLProjects {
@@ -27,4 +28,46 @@ body {
   margin-right: 5%;
   margin-top: 10px;
   text-align: center;
+}
+
+@media (max-width: 753px) {
+  .intro {
+    width: 90%;
+    display: block;
+    font-size: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  img {
+    margin-bottom: 10px;
+    width: 80%;
+    display: inline;
+    object-fit: cover;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+  }
+
+  body > h2 {
+    text-align: center;
+  }
+
+  .HTMLProjects {
+    background-color: #98e4ff;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .JSGames {
+    background-color: #98e4ff;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
